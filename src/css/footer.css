@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+   background-color:#ded3d3 ;
+}
+.inptemail{
+    border-radius: 2rem;
+    border: none;
+    
+}
+.footer {
+    display: flex;
+    background-color: rgb(57, 95, 130);
+    color: antiquewhite;
+    padding: 20px;
+    width: 100%;
+    direction: rtl;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-center {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-right {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.mybtn3{    background-color: rgb(57, 95, 130);
+color: antiquewhite;
+font-size: larger; 
+border-radius: 20%;
+border: 2px solid antiquewhite;
+padding: 0.5rem;
+transition: all 0.4s;
+}
+.mybtn3:hover {
+    color: rgb(57, 109, 130);
+    background-color: blanchedalmond;
+}
+/*@media (max-width: 768px) {
+    
+}*/
+@media (max-width: 768px){
+    .footer-right{
+        line-height:30px;
+        
+    }
+    .footer-center{
+        margin-left: 1rem;
+    
+    }
+    .footer{
+        position: absolute;
+        font-size: small;
+        
+    }
+}
+/*@media (max-width: 350px){
+  .footer {
+    width: 100%;
+    margin-right: 0.5rem;
+    margin-top: 3rem;
+  }
+}*/

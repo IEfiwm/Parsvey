@@ -1,0 +1,26 @@
+{
+  "short_name": "پارس وی",
+  "name": "تجهیز صنعت پارس وی",
+  "icons": [
+    {
+      "src": "%PUBLIC_URL%/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon" ,
+      "border_redius" : "50%"
+    },
+    {
+      "src": "%PUBLIC_URL%/favicon.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "%PUBLIC_URL%/favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,154 @@
+.secondphoto{
+float: left;
+width: 41%;
+
+border-top-right-radius: 20%;
+    border-bottom-right-radius: 20% ;
+    margin-bottom: 2rem;
+    /*
+    
+    margin-right: 58rem;
+    margin-top: 2rem;*/
+    
+}
+.forthphoto{
+    float: right;
+width: 41%;
+
+border-top-left-radius: 20%;
+    border-bottom-left-radius: 20% ;
+    margin-top: 2rem;
+}
+.myp{
+    font-size: 30px;
+   /* font-family: 'Courier New', Courier, monospace; */
+
+    position: absolute;
+    padding-right: 0.75rem;
+    padding-top: 2rem;
+    color: rgb(42, 41, 40);
+    line-height: 1.7;
+}
+.mybtn{
+    background-color: rgb(57, 95, 130);
+    color: antiquewhite;
+    font-size: larger;
+    margin-top: 21rem;
+    margin-right: 17rem;
+    border-radius: 20%;
+    border: 2px solid antiquewhite ;
+    padding: 1rem;
+    transition: all 0.4s;
+}
+/*.myhome{
+    font-family: Arial, sans-serif;
+}*/
+.mybtn:hover{
+    color: rgb(57, 109, 130);
+    background-color: blanchedalmond;
+}
+.mybtn2{
+    background-color: rgb(57, 95, 130);
+    color: antiquewhite;
+    font-size: larger; 
+    border-radius: 20%;
+    border: 2px solid antiquewhite;
+    padding: 1rem;
+    transition: all 0.4s;
+}
+.mybtn2:hover{
+    color: rgb(57, 109, 130);
+    background-color: blanchedalmond;   
+}
+.btndiv{
+    margin-right: 5rem;
+    margin-top: 1.2rem;
+}
+
+.hr1{
+    width: 110%;
+    margin-left: 20%;
+    border: 4px solid rgb(57, 109, 130);
+    border-radius: 2rem;
+}
+.hr2{
+    width: 90%;
+    border: 4px solid rgb(57, 109, 130);
+    margin-left: 20rem;
+    border-radius: 2rem;
+    
+}
+.hr3{
+    width: 70%;
+    border: 4px solid rgb(57, 109, 130);
+    border-radius: 2rem;
+    margin-left: 29rem;
+}
+.myp2{
+    font-size: 35px;
+   /* font-family: 'Courier New', Courier, monospace; */
+    position: absolute;
+    padding-right: 0.75rem;
+    padding-top: 2rem;
+    margin-right: 11rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+    color: rgb(42, 40, 38);
+}
+.myh{
+    font-size: 37px;
+    margin-top: 2rem;
+    
+}
+.myh2{
+    font-size: 37px;
+    margin-top: 2rem;
+}
+@media (max-width: 768px){
+    .myh{
+        font-size: large;
+    }
+    .myh2{
+        font-size: large;   
+    }
+    .myp{
+        font-size: small;
+        width: 59%;
+    }
+    .myp2{
+        font-size: small;
+        width: 40%;
+        margin-right: 13rem;
+        text-align: justify;
+        display: flex;        
+
+
+    }
+    .secondphoto{
+        width: 40%;
+        margin-top: 9%;
+    }
+    .mybtn{
+        display: none;
+    }
+    .mybtn2{
+        display: none;
+    }
+    .forthphoto{
+        width: 50%; 
+        margin-top: 30%;
+
+    }
+}
+@media (max-width: 350px){
+    .myp{
+        font-size: 11px;
+    }
+    .myp2{
+        font-size: 11px;
+        margin-right: 10.5rem;
+    }
+    .secondphoto{
+        margin-top: 3rem;
+    }
+}

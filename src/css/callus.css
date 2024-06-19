@@ -1,0 +1,125 @@
+.telicon{
+    width: 5%;
+    height: 20%;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.telicon:hover{
+    width: 7%;
+}
+.whaticon{
+    width: 5%;
+    height: 20%;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.whaticon:hover{
+   width: 7%;
+}
+/*.mycallus{
+    background-color: antiquewhite;
+}*/
+.instaicon{
+    width: 5%;
+    height: 20%;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.instaicon:hover{
+    width: 7%;
+}
+
+/*.div-border{
+     
+}*/
+.iconsdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.writing-area {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: xx-large;
+    font-family: Arial, sans-serif;
+}
+.writing-area-2{
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: xx-large;
+    font-family: Arial, sans-serif;
+    background-color: rgb(57, 95, 130);
+    color: antiquewhite;
+    box-shadow: 0 3px 4px 8px rgba(57, 95, 130, 0.2);
+
+    width: 40%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    
+    display: inline-block;
+}
+.h1h1{
+    font-family: Arial, sans-serif;
+}
+ /*.div-border{
+    
+}*/
+/* .locationimg{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px 10px rgba(7, 7, 7 0.7);
+}*/
+/*.locationimg{
+    width: 80%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    height: 40%;
+    background-color: bisque;
+    border-radius: 2%;
+} */
+.callimg{
+    width: 40%;
+    margin-right: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 12px 4px rgba(2, 160, 112, 0.422);
+    float: left;
+}
+@media (max-width: 768px){
+    .telicon{
+        width: 10%;
+        height: 10%;
+    }
+    .whaticon{
+        width: 10%;
+        height: 10%;
+    }
+    .instaicon{
+        width: 10%;
+        height: 20%;
+    }
+    .writing-area-2{
+        width: 100%;
+    }
+    .writing-area{
+        font-size: large;
+    }
+    .callimg{
+        width: 60%;
+    }
+    .locationimg{
+        position: absolute;
+        float: right;
+        height: 30%;
+    }
+    /*.iconsdiv{
+        
+    }*/
+}
