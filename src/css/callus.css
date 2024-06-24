@@ -42,14 +42,14 @@
     padding: 20px;
     line-height: 1.6;
     font-size: xx-large;
-    font-family: Arial, sans-serif;
+    font-family: Vazir;
 }
 .writing-area-2{
     margin: 50px auto;
     padding: 20px;
     line-height: 1.6;
     font-size: xx-large;
-    font-family: Arial, sans-serif;
+    font-family: Vazir;
     background-color: rgb(57, 95, 130);
     color: antiquewhite;
     box-shadow: 0 3px 4px 8px rgba(57, 95, 130, 0.2);
@@ -61,7 +61,7 @@
     display: inline-block;
 }
 .h1h1{
-    font-family: Arial, sans-serif;
+    font-family: Vazir;
 }
  /*.div-border{
     
