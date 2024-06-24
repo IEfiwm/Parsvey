@@ -6,20 +6,25 @@ body {
     margin: 0;
     font-family: Vazir;
     direction: rtl;
-   background-color:#ded3d3 ;
+    background-color: #ded3d3;
 }
-.inptemail{
+
+.inptemail {
     border-radius: 2rem;
     border: none;
-    
+
 }
+
 .footer {
-    display: flex;
     background-color: rgb(57, 95, 130);
     color: antiquewhite;
     padding: 20px;
     width: 100%;
     direction: rtl;
+}
+
+.footer input {
+    color: black;
 }
 
 .footer-left {
@@ -33,6 +38,10 @@ body {
 
 .footer-right {
     flex: 1;
+}
+
+.footer a {
+    font-size: 18px !important;
 }
 
 ul {
@@ -53,36 +62,50 @@ button {
     padding: 8px 15px;
     cursor: pointer;
 }
-.mybtn3{    background-color: rgb(57, 95, 130);
-color: antiquewhite;
-font-size: larger; 
-border-radius: 20%;
-border: 2px solid antiquewhite;
-padding: 0.5rem;
-transition: all 0.4s;
+
+.mybtn3 {
+    background-color: rgb(57, 95, 130);
+    color: antiquewhite;
+    font-size: larger;
+    border-radius: 20%;
+    border: 2px solid antiquewhite;
+    padding: 0.5rem;
+    transition: all 0.4s;
 }
+
 .mybtn3:hover {
     color: rgb(57, 109, 130);
     background-color: blanchedalmond;
 }
+
 /*@media (max-width: 768px) {
     
 }*/
-@media (max-width: 768px){
-    .footer-right{
-        line-height:30px;
-        
+@media (max-width: 768px) {
+    .footer-right {
+        line-height: 30px;
+
     }
-    .footer-center{
+
+    .footer-center {
         margin-left: 1rem;
-    
+
     }
-    .footer{
+
+    .footer-center ul li {
+        font-size: 18px !important;
+    }
+    .footer-center h3 {
+        font-size: 18px !important;
+    }
+
+    .footer {
         position: absolute;
         font-size: small;
-        
+
     }
 }
+
 /*@media (max-width: 350px){
   .footer {
     width: 100%;

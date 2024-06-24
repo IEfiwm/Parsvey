@@ -17,11 +17,11 @@ function Home() {
       </div> */}
       <div className="myhome">
         <div className="flex flex-col mt-8">
-          <h2 className="text-2xl pr-4 mb-8">
+          <h2 className="text-[32px] pr-4 mb-8">
             با کمک ما از بهترین تجهیزات استفاده کنید :
           </h2>
           <div className="md:flex-row flex gap-2 flex-col justify-between">
-            <div className="md:w-1/2 pr-2 text-xl">
+            <div className="md:w-1/2 pr-2 text-2xl">
               برای خرید ماشینهای بستنی ساز و سردخانه های صنعتی و تجهیزات کافی
               شاپ با برند های متنوع از جمله تهویه مطبوع و چیلر و فن کویل و
               هواساز وتجهیزات نفت و گاز و موارد دیگر به صورت نقد واقساط که در
@@ -52,7 +52,7 @@ function Home() {
         </div>
 
         <div className="flex flex-col my-8">
-          <h2 className="text-2xl pr-4 mb-8">
+          <h2 className="text-[32px] pr-4 mb-8">
             آیا محصولات را میتوان به صورت اقساط خریداری کرد ؟
           </h2>
           <div className="md:flex-row flex gap-2 flex-col justify-between">
@@ -63,7 +63,7 @@ function Home() {
                 alt="photos"
               />
             </div>
-            <div className="md:w-1/2 px-2 text-xl">
+            <div className="md:w-1/2 px-2 text-2xl">
               در جواب به این سوال باید گفت که بله شما میتوانید تمامی محصولات
               مارا از جمله چیلر و فن کویل و هواساز و تهویه مطبوع و محصولات دیگر
               را هم به صورت نقدی و هم به صورت اقساط خریداری کنید برای دریافت
