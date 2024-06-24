@@ -31,14 +31,14 @@
   border-radius: 1rem;
 }
 
-.nav__link {
+.nav__link:not(.custom) {
   color: antiquewhite;
   text-decoration: none;
   padding: 10px;
   transition:  all 0.3s ease;
 }
 
-.nav__link:hover {
+.nav__link:not(.custom):hover {
   color: rgb(57, 109, 130);
   background-color: blanchedalmond;
   border-radius: 1rem;
