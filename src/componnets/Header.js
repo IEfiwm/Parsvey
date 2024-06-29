@@ -14,9 +14,9 @@ const Header = () => {
       <div className="logo">تجهیز صنعت پارس وی</div>
       <nav className={`nav ${isMenuOpen ? 'nav--open' : ''}`}>
         <ul className="nav__list">
-          <li className="nav__item"> <Link className="nav__link" to="/"> خانه</Link> </li>
-          <li className="nav__item"> <Link className="nav__link" to="/درباره ما">درباره ما</Link> </li>
-          <li className="nav__item"> <Link className="nav__link" to="/تماس باما"> تماس باما</Link> </li>
+          <li > <Link className="nav__link" to="/"> خانه</Link> </li>
+          <li > <Link className="nav__link" to="/درباره ما">درباره ما</Link> </li>
+          <li > <Link className="nav__link" to="/تماس باما"> تماس باما</Link> </li>
         </ul>
       </nav>
       <div className="hamburger" onClick={toggleMenu}>
