@@ -15,8 +15,8 @@ const Header = () => {
       <nav className={`nav ${isMenuOpen ? 'nav--open' : ''}`}>
         <ul className="nav__list">
           <li > <Link className="nav__link" to="/"> خانه</Link> </li>
-          <li > <Link className="nav__link" to="/درباره ما">درباره ما</Link> </li>
-          <li > <Link className="nav__link" to="/تماس باما"> تماس باما</Link> </li>
+          <li > <Link className="nav__link" to="/AboutUs">درباره ما</Link> </li>
+          <li > <Link className="nav__link" to="/ContactUs"> تماس باما</Link> </li>
         </ul>
       </nav>
       <div className="hamburger" onClick={toggleMenu}>

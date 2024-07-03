@@ -17,10 +17,10 @@ function Footer() {
         <Link className="nav__link" to="/">خانه</Link>
         <br/>
         <br/>
-        <Link className="nav__link" to="/درباره ما">درباره ما</Link> 
+        <Link className="nav__link" to="/AboutUs">درباره ما</Link> 
         <br/>
         <br/>
-        <Link className="nav__link" to="/تماس باما"> تماس باما</Link> 
+        <Link className="nav__link" to="/ContactUs"> تماس باما</Link> 
         <br/>
         <br/>
         <Link className="nav__link"  onClick={handleme}>طراح سایت</Link> 

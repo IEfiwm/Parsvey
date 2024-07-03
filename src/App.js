@@ -14,9 +14,9 @@ function App() {
           <Routes>
              
              <Route path='/' element={<Home/>}/>
-             <Route path='/فروشگاه' element={<Shop/>}/>
-             <Route path='/درباره ما' element={<AboutUs/>}/>
-             <Route path='/تماس باما' element={<CallUs/>}/>
+             <Route path='/Shop' element={<Shop/>}/>
+             <Route path='/AboutUs' element={<AboutUs/>}/>
+             <Route path='/ContactUs' element={<CallUs/>}/>
    
              
              
